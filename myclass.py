@@ -5,3 +5,7 @@ class Shape:
 
 	def define(self):
 		print("Length of this shape is: ", self.l, " and height is: ", self.h)
+
+	def setvalues(self, h, l):
+		self.h=h
+		self.l=l 
